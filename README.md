@@ -3,7 +3,7 @@
 ## Configuração da licenca no ANDROID_HOME do linux
 
 <pre>
-android update sdk --no-ui --filter build-tools-26.0.2,android-26,extra-android-m2repository
+./tools/bin/sdkmanager "platform-tools" "platforms;android-26"
 </pre>
 
 ## Gerar certificado
